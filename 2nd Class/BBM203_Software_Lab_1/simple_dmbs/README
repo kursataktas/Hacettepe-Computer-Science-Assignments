@@ -1,18 +1,13 @@
 Software Usage
-This is kind of a database program. You can creaties category and add products into these categories. Another abilities of my database program;
-Sorting Products ( by name ascending,descending or by price ascending,descending ).
-You can see all products and categories which you added before.
-Also you can see ;
-o Specific category’s products
-o Products the specific name
-o Products the specific price
-o Products the between specific prices
-To run program you must enter program name, input file directory and output file directory in command line.
+This is kind of a database program. You can create category and add products into these categories.
+Other abilities of my database program;
+  Sorting Products ( by name ascending,descending or by price ascending,descending ).
+  You can see all products and categories which you have added before.
+  Also you can see ;
+    o Specific categoryâ€™s products
+    o Products the specific name
+    o Products the specific price
+    o Products the between specific prices
 
-Bugs and Reliability
-According to my tests there is no bugs . Program runs correctly.
-
-Time Complexity ( For Sorting )
-I have used Bubble Sort algorithm. You can see my sorting code and explanatory comments in any sortBy....() functions which inside my code.
-As Bubble Sort algorithm , time complexity of my sorting functions are;
-O(n) = ??2
+Usage;
+program_name input_file_directory output_file_directory
