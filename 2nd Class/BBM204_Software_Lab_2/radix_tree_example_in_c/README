@@ -1,0 +1,20 @@
+? Program runs updatedatabase command with no problem.
+Saves file names, permissons, types ( directory or regular file)
+into given parameter path or default path ( default path is the
+program’s path, default name is “radixT.db”).
+? Locater command: program just reconstruct the radix tree
+which is located in DBPATH. I haven’t time to create search
+component for my program and writing report too.
+? All functions in functions.c is recursive.
+- createRadixTree(path, root): takes main path and create
+radix tree.
+- getStats(file): takes filename and returns file’s
+type,permissions,name.
+- changeDirectory(target): changes current directory ( used for
+getting file informations from sub directories ).
+- insertRadixTree(root, file infos): takes file infos, insert node
+to tree and returns pointer which point inserted node.
+- writeRadixTree(root,file pointer): takes pointer which point
+DBPATH and write tree.
+- setRadixFromDb(root, file pointer): takes pointer which point
+DBPATH and reconstruct tree.
