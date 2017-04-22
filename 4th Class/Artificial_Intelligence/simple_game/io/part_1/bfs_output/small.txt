@@ -1,0 +1,21 @@
+East
+East
+South
+South
+West
+South
+South
+West
+West
+South
+West
+West
+West
+West
+West
+West
+West
+West
+West
+WIN
+Expanded node count: 92

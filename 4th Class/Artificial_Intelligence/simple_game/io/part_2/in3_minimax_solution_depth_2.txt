@@ -1,0 +1,10 @@
+West
+Stop
+Stop
+Stop
+South
+South
+East
+East
+North
+Score: 511

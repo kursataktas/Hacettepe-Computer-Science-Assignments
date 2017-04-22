@@ -1,0 +1,10 @@
+South
+South
+West
+South
+West
+West
+South
+West
+WIN
+Expanded node count: x

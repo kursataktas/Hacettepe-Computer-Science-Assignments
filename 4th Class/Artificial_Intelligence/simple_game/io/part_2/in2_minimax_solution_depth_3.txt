@@ -1,0 +1,5 @@
+West
+East
+East
+South
+Score: 516
