@@ -1,0 +1,42 @@
+Authors
+------------------------
+Burcu İSKENDER  21328103
+Kürşat AKTAŞ	21227949
+
+Project subject - and used languages
+------------------------------------
+Langueage Detection For Turkish, English, German.
+
+Brief about project content
+----------------------------
+This program determines the language of the given text. But there is a restriction for the number of languages. Inputs can be in Turkish, English, German or mixed up.The output of the program prints the detected language and the probabilities of each 3 languages.
+
+Prerequirement
+--------------
+Before running the program be sure that the traning set named "data" folder is in the same directory with lang_detector.py
+
+Compile & Run
+-------------
+python3 lang_detector.py <input_text>
+
+Input format
+------------
+Program takes input string from console. ( As shown in Compile & Run section )
+
+Output format
+-------------
+Program prints result to the console screen.
+
+Example Usage
+-------------
+$ python3 lang_detector.py "bu proje incredible"
+
+Given string is in Turkish language.
+
+Probability Details
+----------------------------------------------------
+Turkish : 99.96 %
+German : 0.04 %
+English : 0.01 %
+
+Total Time: 6.37 seconds
